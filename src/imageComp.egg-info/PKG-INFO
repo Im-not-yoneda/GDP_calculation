@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: imageComp
-Version: 0.0.1
+Version: 0.0.2
 Summary: A small example package
 Home-page: https://github.com/Im-not-yoneda/image_compression
 Author: Yoneda
@@ -18,12 +18,6 @@ Description: # image_compression
         ## How to install
         
         `$ pip install imageComp`
-        
-        ## Packages required to run this
-        
-        `$ from PIL import Image`</br>
-        `$ import numpy as np`</br>
-        `$ from sklearn.decomposition import PCA`
         
         ## How to use
         
