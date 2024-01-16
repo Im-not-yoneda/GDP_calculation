@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
   long_description = fh.read()
 setuptools.setup(
   name="imageComp",
-  version="0.0.1",
+  version="0.0.2",
   author="Yoneda",
   author_email="s2122053@stu.musashino-u.ac.jp",
   description="A small example package",
@@ -19,12 +19,12 @@ setuptools.setup(
     "Operating System :: OS Independent",
   ],
   package_dir={"": "src"},
-  py_modules=['interipport'],
+  py_modules=['imageComp'],
   packages=setuptools.find_packages(where="src"),
   python_requires=">=3.6",
   entry_points = {
       'console_scripts': [
-          'interipport = interipport:main'
+          'imageComp = imageComp:main'
       ]
   },
 ) 

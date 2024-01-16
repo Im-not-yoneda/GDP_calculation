@@ -10,12 +10,6 @@ It also makes features more pronounced, making it ideal for AI training.
 
 `$ pip install imageComp`
 
-## Packages required to run this
-
-`$ from PIL import Image`</br>
-`$ import numpy as np`</br>
-`$ from sklearn.decomposition import PCA`
-
 ## How to use
 
 `$ imageComp`</br>
