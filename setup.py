@@ -21,7 +21,7 @@ setuptools.setup(
   package_dir={"": "src"},
   py_modules=['imageComp'],
   packages=setuptools.find_packages(where="src"),
-  python_requires=">=3.9.6",
+  python_requires=">=3.6",
   entry_points = {
       'console_scripts': [
           'imageComp = imageComp:main'
