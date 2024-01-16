@@ -24,7 +24,7 @@ setuptools.setup(
   python_requires=">=3.6",
   entry_points = {
       'console_scripts': [
-          'imageComp = imageComp:main'
+          'imageComp = src/imageComp:main'
       ]
   },
 ) 
