@@ -1,8 +1,6 @@
 from PIL import Image
 import numpy as np
 from sklearn.decomposition import PCA
-import io
-import base64
 
 def compress_image(image, n_components):
     # 画像をグレースケールに変換
