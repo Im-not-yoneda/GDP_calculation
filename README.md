@@ -1,1 +1,1 @@
-# GDP_calculation
+# image_compression
