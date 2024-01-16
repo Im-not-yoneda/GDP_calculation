@@ -25,8 +25,8 @@ then you can see "compressed_image.jpg" file
 
 ## Before:input image
 
-!(landscape.jpg)
+![](landscape.jpg)
 
 ## After: output image
 
-!(src/compressed_image.jpg)
+![](src/compressed_image.jpg)
